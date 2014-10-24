@@ -5,7 +5,7 @@
 alias rm="rm -i"
 alias cp="cp -i"
 alias mv="mv -i"
-alias ls="ls -F --color"
+alias ls="ls -FG"
 alias ls2="ls -al"
 alias h="clear;echo 'Where am I?:';pwd;echo;ls -F;echo"
 alias h2="clear;echo 'Where am I?:';pwd;echo;ls -alF;echo"
