@@ -11,6 +11,7 @@ alias h="clear;echo 'Where am I?:';pwd;echo;ls -F;echo"
 alias h2="clear;echo 'Where am I?:';pwd;echo;ls -alF;echo"
 alias nocomment='grep -Ev '\''^(#|$)'\'''
 alias popular="history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r |tail"
+alias ps2="ps -ef | less"
 
 ## Use this for Linux
 # alias sitrep='clear;whoami;echo;cat /etc/*release;uname -a;echo;ifconfig eth0;echo'
