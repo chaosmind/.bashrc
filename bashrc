@@ -10,7 +10,7 @@ alias ls2="ls -al"
 alias h="clear;echo 'Where am I?:';pwd;echo;ls -F;echo"
 alias h2="clear;echo 'Where am I?:';pwd;echo;ls -alF;echo"
 alias nocomment='grep -Ev '\''^(#|$)'\'''
-alias popular="history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r |tail"
+# alias popular="history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r |tail"
 alias ps2="ps -ef | less"
 alias whatsw="comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/installer/initial-status.gz | sed -n 's/^Package: //p' | sort -u)"
 
