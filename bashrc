@@ -9,6 +9,8 @@ alias ls="ls -FG"
 alias ls2="ls -al"
 alias h="clear;pwd;echo;ls -F;echo"
 alias h2="clear;pwd;echo;ls -alF;echo"
+alias h3="clear;pwd;echo;ls -aF;echo"
+alias ht="clear;pwd;echo;tree;echo"
 alias clean="grep -Ev '^#|^$'"
 alias nocomment='grep -Ev '\''^(#|$)'\'''
 # alias popular="history|awk '{print $2}'|awk 'BEGIN {FS="|"} {print $1}'|sort|uniq -c|sort -r |tail"
