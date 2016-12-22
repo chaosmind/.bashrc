@@ -25,6 +25,16 @@ alias whatsw="comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/inst
 
 alias when='clear;date;echo;cal;echo'
 
+# Lazy ancestor directory ziggurat of doom (from geeksam)
+alias        ..='cd ..'
+alias       ...='cd ../..'
+alias      ....='cd ../../..'
+alias     .....='cd ../../../..'
+alias    ......='cd ../../../../..'
+alias   .......='cd ../../../../../..'
+alias  ........='cd ../../../../../../..'
+alias .........='cd ../../../../../../../..'
+
 # Source global definitions
 if [ -f /etc/bashrc ]; then
         . /etc/bashrc
