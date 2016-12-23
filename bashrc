@@ -13,6 +13,8 @@ alias h3="clear;pwd;echo;ls -aF;echo"
 alias ht="clear;pwd;echo;tree;echo"
 alias clean="grep -Ev '^#|^$'"
 alias nocomment='grep -Ev '\''^(#|$)'\'''
+alias please="sudo"
+alias fuck="sudo $(history -p !!)"  # repeat last command with sudo
 alias ps2="ps -ef | less"
 alias when='clear;date;echo;cal;echo'
 # the following works on Debian-based systems, good for seeing software installs
