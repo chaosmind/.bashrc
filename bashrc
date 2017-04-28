@@ -15,6 +15,7 @@ alias htd="clear;pwd;echo;tree -d;echo"
 alias clean="grep -Ev '^#|^$'"
 alias nocomment='grep -Ev '\''^(#|$)'\'''
 alias please="sudo"
+alias p="ps -ef | less"
 alias ps2="ps -ef | less"
 alias when='clear;date;echo;cal;echo'
 # the following works on Debian-based systems, good for seeing software installs
