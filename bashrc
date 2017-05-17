@@ -7,11 +7,12 @@ alias cp="cp -i"
 alias mv="mv -i"
 alias ls="ls -hFG"
 alias ls2="ls -alh"
-alias h="clear;pwd;echo;ls -hF;echo"
-alias h2="clear;pwd;echo;ls -alhF;echo"
+alias h="clear;pwd;echo;ls -halF;echo"  # Go Home
+alias h2="clear;pwd;echo;ls -hF;echo"
 alias h3="clear;pwd;echo;ls -ahF;echo"
 alias ht="clear;pwd;echo;tree;echo"
 alias htd="clear;pwd;echo;tree -d;echo"
+alias c="grep -Ev '^#|^$'"  # Clean view of files
 alias clean="grep -Ev '^#|^$'"
 alias nocomment='grep -Ev '\''^(#|$)'\'''
 alias please="sudo"
@@ -23,6 +24,7 @@ alias whatsw="comm -23 <(apt-mark showmanual | sort -u) <(gzip -dc /var/log/inst
 alias which='type -all' # which:        Find executables
 ql () { qlmanage -p "$*" >& /dev/null; } # ql:           Opens any file in MacOS Quicklook Preview
 trash () { command mv "$@" ~/.Trash ; } # trash:        Moves a file to the MacOS trash
+alias update='sudo softwareupdate -i -a; brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g; sudo gem update --system; sudo gem update'
 
 ## Use this for Linux
 # alias sitrep='clear;whoami;echo;cat /etc/*release;uname -a;echo;ifconfig eth0;echo'
